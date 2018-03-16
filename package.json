@@ -94,7 +94,7 @@
 		"temp-write": "^3.4.0"
 	},
 	"eslintConfig": {
-		"extends": "eslint-config-xo"
+		"extends": "eslint-config-ali"
 	},
 	"eslintIgnore": [
 		"test/fixtures"

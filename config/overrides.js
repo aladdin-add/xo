@@ -1,5 +1,5 @@
 
 module.exports = {
-	// Put rule overrides here
-	extends: ['ali']
+  // Put rule overrides here
+  extends: ['ali'],
 };
