@@ -110,6 +110,9 @@ const cli = meow(`
       type: 'string',
       alias: 'filename',
     },
+    debug: {
+      type: 'boolean',
+    },
   },
 });
 
