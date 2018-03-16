@@ -63,7 +63,7 @@ module.exports.lintText = (str, opts) => {
     const filename = path.relative(opts.cwd, opts.filename);
 
     if (multimatch(filename, opts.ignores).length > 0 ||
-			globby.gitignore.sync({ cwd: opts.cwd, ignore: opts.ignores })(opts.filename)) {
+      globby.gitignore.sync({ cwd: opts.cwd, ignore: opts.ignores })(opts.filename)) {
       return {
         errorCount: 0,
         warningCount: 0,
